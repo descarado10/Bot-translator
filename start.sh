@@ -1,6 +1,7 @@
 #!/bin/bash
-echo "Installing torch..."
-pip install torch==2.0.1 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+
+echo "Installing requirements..."
+pip install -r requirements.txt
 
 echo "Starting bot..."
 python bot.py

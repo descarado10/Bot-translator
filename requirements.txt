@@ -1,0 +1,14 @@
+aiogram==3.5.0
+python-dotenv==1.0.1
+pydub==0.25.1
+speechrecognition==3.10.1
+moviepy==1.0.3
+deep-translator==1.11.4
+easyocr==1.7.1
+torch==2.1.0
+opencv-python==4.9.0.80
+Pillow==10.2.0
+uvicorn==0.29.0
+fastapi==0.111.0
+transformers==4.41.2
+deepmultilingualpunctuation==1.0.1

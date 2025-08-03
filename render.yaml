@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: translator-media-bot
+    env: python
+    buildCommand: ""
+    startCommand: ./start.sh
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+    autoDeploy: true
+    plan: free
+    healthCheckPath: /healthz
+    healthCheckTimeoutSeconds: 15

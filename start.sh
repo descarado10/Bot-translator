@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Installing requirements..."
-pip install -r requirements.txt
+pip install --prefer-binary -r requirements.txt
 
 echo "Starting bot..."
 python bot.py
+

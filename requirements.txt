@@ -1,6 +1,6 @@
 -f https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.2.0+cpu
-torchvision==0.17.0+cpu
+torch==2.2.0
+torchvision==0.17.0
 aiogram==3.5.0
 python-dotenv==1.0.1
 pydub==0.25.1

@@ -9,5 +9,9 @@ services:
         sync: false
     autoDeploy: true
     plan: free
+    runtime: python
+    region: oregon
+    pythonVersion: 3.11.0
     healthCheckPath: /healthz
     healthCheckTimeoutSeconds: 15
+

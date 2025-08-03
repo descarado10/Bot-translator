@@ -1,5 +1,5 @@
 torch==2.7.1
-torchvision==0.18.1
+torchvision==0.22.1
 aiogram==3.5.0
 python-dotenv==1.0.1
 pydub==0.25.1

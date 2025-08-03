@@ -1,7 +1,11 @@
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+-f https://download.pytorch.org/whl/cpu/torch_stable.html
+
 aiogram==3.5.0
 python-dotenv==1.0.1
 pydub==0.25.1
-speechrecognition==3.10.1
+SpeechRecognition==3.10.1
 moviepy==1.0.3
 deep-translator==1.11.4
 easyocr==1.7.1

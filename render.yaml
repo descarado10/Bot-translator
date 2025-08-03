@@ -11,4 +11,3 @@ services:
     plan: free
     healthCheckPath: /healthz
     healthCheckTimeoutSeconds: 15
-    pythonVersion: 3.11.0
